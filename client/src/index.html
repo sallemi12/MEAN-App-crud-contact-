@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Client</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js">
+  </script> 
+</head>
+<body>
+
+		
+			<app-root></app-root>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+   
+        //typed .js
+    $("#typed").typed({
+        strings: ["a web developer.", "a web designer.",
+            "a web lover.", "JOKKY BRAIN."
+        ],
+        typeSpeed: 50,
+        callback: function() {
+            lift();
+        }
+    });
+    
+    function lift() {
+            $(".head-text").addClass("lift-text");
+        }
+
+  });
+  </script>
+ 
+</body>
+</html>

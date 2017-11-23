@@ -1,0 +1,31 @@
+
+.header {
+    background: url('/assets/intro.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+        margin-top: -60px;
+}
+
+
+.bg-color{
+    background-color: RGBA(0, 0, 0, 0.67);
+    min-height: 650px;
+}
+.navbar-border{
+}
+.banner-text{
+    border-left: 5px solid #BE2525;
+    padding: 15px 40px;
+    margin-left: 125px;
+    color: #fff;
+    margin-top: 170px;
+}
+.banner-text h2, .banner-text p{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Questrial', sans-serif;
+}
+.banner-text h2 span{
+    font-family: 'Satisfy', cursive;
+}

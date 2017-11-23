@@ -1,0 +1,28 @@
+.navbar .nav>li>a {
+    font-size: 21px !important;
+    
+   
+}
+.navbar-inverse .navbar-brand {
+    font-size: 23px !important;
+    text-transform: uppercase;
+}
+.navbar-inverse {
+    background-color:rgba(14, 14, 14, 0.89);
+    border-color: rgba(8, 8, 8, 0);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #1f7680 !important;
+}
+.simple-notification.success {
+    margin-top: 100px !important; 
+    background: #8BC34A;
+}
+simple-notification {
+    
+    margin-top: 100px !important;
+}
+#logout{
+	cursor: pointer;
+}

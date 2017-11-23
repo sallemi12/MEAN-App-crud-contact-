@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+.typed-cursor {
+  font-weight: 100;
+  padding: 0 2px;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.tagline {
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 500;
+  font-size: 4em;
+  letter-spacing: 4px;
+  font-family: 'Nova Flat', cursive;
+  transition: all 0.7s ease-in-out;
+}
+
+.sub-tagline {
+  margin: 0;
+  font-size: 1em;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+}
+.lift-text .tagline {
+  margin: 0;
+}
+.lift-text .sub-tagline {
+  opacity: 1;
+}
+.head-text {
+  padding-top: 60px;
+}
+.typed-cursor {
+  font-weight: 100;
+  padding: 0 2px;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.lift-text .sub-tagline {
+  opacity: 1;
+}
+h4.sub-tagline {
+  border-bottom: 1px solid #7a7a7a;
+  border-top: 1px solid #7a7a7a;
+  color: rgba(158, 158, 158, 0.51);
+  padding: 15px 0;
+  margin-top: 2px;
+  font-size: 46px;
+  text-transform: uppercase;
+ 
+  font-family: 'Pathway Gothic One', sans-serif;
+}
